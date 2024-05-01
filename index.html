@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+  <script type="module" crossorigin src="/assets/index-G9MDFOfI.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-xJ1PJ0QV.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <h3>hecha por Maxi</h3>
+    </header>
+    <main>
+        
+        <section >
+            <input class="first__input" type="number" required>
+        </section>
+
+        <section class="input_container">
+            <select class="input__operation">
+                <option value="value_sum" selected>+</option>
+                <option value="value_minus">-</option>
+                <option value="value_multiplication">*</option>
+                <option value="value_division">/</option>
+                <option value="value_squareroot">√</option>
+            </select>
+        </section>
+
+        <section>
+            <input class="second__input" type="number" required>
+        </section>
+
+        <section class="button_container">
+            <button class="button__calculate">
+                Calcular
+            </button>
+
+            <button class="button__clear">
+                Borrar 
+            </button>
+        </section>
+
+        <section>
+            <p class="result"></p>
+        </section>
+
+    </main>
+</body>
+</html>
